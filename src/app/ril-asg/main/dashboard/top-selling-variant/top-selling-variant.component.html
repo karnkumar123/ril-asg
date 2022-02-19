@@ -1,0 +1,11 @@
+<div style="border: 1px solid rgb(0,0,0,0.3); padding: 5px; border-radius: 10px; height: 175px;">
+    <span>Top Selling Variants</span>
+    <hr>
+    <div *ngFor="let variants of sellingVariants; let i = index">
+        <div class="col-md-3" [ngStyle]="{float: i % 2===0 ? 'left': 'right'}"
+            style="width: 50%; display: inline-block;">
+            {{variants.title}} <br>
+            <h3 style="margin-top: -2px;">{{variants.name}} <span style="color: aqua;">{{variants.value}}</span></h3>
+        </div>
+    </div>
+</div>

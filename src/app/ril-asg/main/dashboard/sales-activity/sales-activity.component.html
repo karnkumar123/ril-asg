@@ -1,0 +1,17 @@
+<div style="margin-left: 15px">
+    Sales Activity (95)
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <div class="col-md-3" *ngFor="let sales of salesActivityArray">
+            <div style="border: 1px solid rgb(0,0,0,0.3); width: 100%; height: 70px; padding: 5px; border-radius: 10px;">
+                <i class="glyphicon glyphicon-ok" style="font-size: large; float: left; margin-right: 5px;"></i>
+                <span style="float: left;">{{sales.saleActivity}}</span>
+                <span style="float: right; font-size: large;">{{sales.value}}</span> <br>
+                <span style="float: left; padding-top: 15px;">{{sales.salesStatus}}</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr>

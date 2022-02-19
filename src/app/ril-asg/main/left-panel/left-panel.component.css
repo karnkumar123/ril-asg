@@ -1,0 +1,19 @@
+.sideNav {
+  height: 100%;
+  background-color: #708090;
+  width: 100%;
+}
+
+
+
+.sideNav a:hover {
+  font-size: large;
+}
+
+a{
+    margin-left: 10px;
+    display: block;
+    color: whitesmoke;
+    height: 50px;
+    text-decoration: none;
+}
